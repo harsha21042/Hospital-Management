@@ -1,0 +1,15 @@
+#thankyou{
+    color: black;
+}
+.center{
+    text-align: center;
+}
+.h-primary{
+    font-size: 277%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#thankyou .thankimg img{
+    height: 391px;
+    width: 651px;
+    padding: 20px 439px;   
+}

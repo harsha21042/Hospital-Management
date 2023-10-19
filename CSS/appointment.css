@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+.Appointment_form{
+    background: url(../Image/appointment-background.jpg) no-repeat center center/cover;
+    align-items: center;
+}
+ #Appointment_form{
+    position: relative;
+ } 
+#Appointment_.Appointment_form{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+ }
+#app-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: bottom 34px; 
+ } 
+  #app-form form{
+    width: 40%;
+ } 
+ #app-form label{
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+ } 
+#app-form input, 
+#app-form textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem; 
+ }
+ .btn1{
+    padding: 6px 20px;
+    border: 5px solid black;
+    background-color: blue;
+    color: white;
+    margin: 3px;
+    font-size: 1.5rem;
+    border-radius: 16px;
+    cursor: pointer;
+  }

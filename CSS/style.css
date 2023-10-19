@@ -1,0 +1,227 @@
+                                                                     /*CSS RESET*/
+*{
+    margin: 0;
+    padding: 0;
+   }
+
+/*CSS VARIABLES*/
+:root{
+    --navbar-height: 59px;
+}
+
+                                                                      /*Navigation Bar*/
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0px;  
+}
+
+/* Navigation Bar: Logo and Image */
+#logo{
+    margin: 10px 34px;
+}
+
+#logo img{
+    height: 59px;
+    margin: 3px 6px;
+}
+
+/* Navigation Bar:List Styling */
+
+#navbar ul{
+    display: flex;
+}
+
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity:0.4;
+}
+#navbar ul li{
+    /*color: white;*/
+    list-style: none;
+    font-size: 1.3rem;
+   
+}
+#navbar ul li a{
+   color: white;
+   display: block;
+   padding: 3px 22px;
+   border-radius: 20px;
+   text-decoration: none; 
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+ }
+
+                                                                /* HOME SECTION */      
+ #home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 325px;
+    justify-content: center;
+    align-items: center;
+
+ }
+
+ #home::before{
+    content: "";
+    background: url('../Image/hospital.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 58%;
+    width: 100%;
+    z-index: -1;
+    opacity:0.89;
+ }
+
+ #home h1{
+    color: white;
+    text-align: center;
+    font-family: ;
+ }
+ #home p{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    
+ }
+                                                           /* SERVICES SECTION */
+ #services{
+    margin: 11px;
+    display: flex;
+ }
+ #services .box{
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 25px 20px;
+    border-radius: 23px;
+    background-color: #f6f6f6;
+    margin-bottom: 20px;
+ }
+ #services .box img{
+   height: 160px;
+   display: block;
+   margin: auto;
+ } 
+ #services .box p{
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+ }
+/* CLIENT SECTION */                                                   
+#client .section{
+   position: relative;
+   height: 344px;
+    }
+
+#client-section::before{
+   content: "";
+   position: absolute;
+   background: url("../Image/med.jpg") no-repeat center/cover;
+   width: 100%;
+   height: 80%;
+   z-index: -1;
+   opacity: 0.39;
+   }
+
+#clients{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.client-item{
+   padding: 40px;
+}
+#clients img{
+   height: 295px;
+}
+/* CONTACT SECTION */
+#contact{
+   position: relative;
+}
+#contact::before{
+   content: "";
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   z-index: -1;
+   opacity: 0.7;
+   background: url('../Image/contact.jpg') no-repeat center center/cover;
+}
+#contact-box{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: bottom 34px; 
+}
+#contact-box form{
+   width: 40%;
+}
+#contact-box label{
+   font-size: 1.3rem;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#contact-box input,
+#contact-box textarea{
+   width: 100%;
+   padding: 0.5rem;
+   border-radius: 9px;
+   font-size: 1.1rem;
+}
+/*  footer */
+footer{
+   background: black;
+   color: white;
+   padding: 9px 20px;
+}
+ /* Utility Class */
+ .h-primary{
+    font-size: 2.5rem;
+    padding: 12px;
+ }
+ .h-secondary{
+    font-size: 1.8rem;
+    padding: 12px;
+ }
+ .btn{
+    text-decoration:none ;
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: red;
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+ }
+ .btn a{
+   text-decoration: none;
+ }
+ .btn1{
+   padding: 6px 20px;
+    border: 5px solid black;
+    background-color: red;
+    color: white;
+    margin: 3px;
+    font-size: 1.5rem;
+    border-radius: 16px;
+    cursor: pointer;
+ }
+
+ .center{
+    text-align: center;
+ }
+
+
